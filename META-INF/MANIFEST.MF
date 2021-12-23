@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+MixinConfigs: mixins.zenith.json
+FMLCorePluginContainsFMLMod: true
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: me.gopro336.zenith.asm.mixin.loader.MixinLoader
+
